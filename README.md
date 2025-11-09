@@ -70,7 +70,7 @@ YouTube: *osTicket - Ticket Lifecycle and Workflow Management*
 
 **Actions Taken:**
 - Observed ticket properties  
-- Set SLA: **Sev-B (4 hours, 24/7)**  
+- Set SLA: **Sev-C (8 hours, Business Hours)**  
 - Assigned Department: **Support**  
 - Worked ticket to completion as John  
 
@@ -93,43 +93,6 @@ YouTube: *osTicket - Ticket Lifecycle and Workflow Management*
 <p align="center">
   <img src="./ticket-5.png" alt="Ticket 3 CFO Laptop" width="80%"/>
 </p>
-
----
-
-### Step 4: Escalation and Access Testing
-After assigning **Sev-A** to the SysAdmins ticket:
-- Ticket became **inaccessible** to non-SysAdmin agents  
-- Switched to **Admin Panel** to grant “View” access to SysAdmins  
-- Re-tested in **Agent Panel** to confirm limited permissions (view-only)
-
-This demonstrated **role-based access control (RBAC)** and **SLA-driven escalation**.
-
-<p align="center">
-  <img src="./ticket-6.png" alt="Escalation Access Control" width="80%"/>
-</p>
-
----
-
-### Step 5: Ticket Resolution & Notifications
-Resolved all tickets as their respective agents.  
-In real deployments, osTicket supports **email notifications**, sending automatic updates to users each time a ticket is modified or resolved — enabling transparent communication between users and technicians.
-
-<p align="center">
-  <img src="./ticket-7.png" alt="Ticket Resolution and Notifications" width="80%"/>
-</p>
-
----
-
-## 🧠 Real-World Insight: Ticket Intake Process
-
-In live environments, ticket creation can occur via:
-- Phone calls
-- Chat applications
-- Email (automated intake)
-- Web forms
-- Walk-ups or in-person requests  
-
-While on-the-spot fixes are fine, it’s best practice to **create tickets for every interaction** to track work metrics, measure technician performance, and document incident history.
 
 ---
 
