@@ -1,7 +1,6 @@
 # osTicket - Ticket Lifecycle Management
 
-This tutorial outlines the ticket creation, assignment, escalation, and resolution process within osTicket — simulating real-world IT service desk operations.  
-The objective was to manage incidents from submission to resolution, applying SLA priorities and department routing.
+This tutorial outlines the ticket creation, assignment, escalation, and resolution process within osTicket — simulating real-world IT service desk operations. The objective was to manage incidents from submission to resolution, applying SLA priorities and department routing.
 
 ---
 
@@ -30,7 +29,7 @@ YouTube: *osTicket - Ticket Lifecycle and Workflow Management*
 4. Escalate and resolve tickets according to policies
 5. Demonstrate understanding of help desk communication workflow
 
----`
+---
 
 ## ⚙️ Configuration & Lifecycle Steps
 
