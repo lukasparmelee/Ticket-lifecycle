@@ -4,11 +4,6 @@ This tutorial outlines the ticket creation, assignment, escalation, and resoluti
 
 ---
 
-### 🎥 Video Demonstration
-YouTube: *osTicket - Ticket Lifecycle and Workflow Management*
-
----
-
 ### 🖥️ Environments and Technologies Used
 - **Microsoft Azure** (Virtual Machines / Compute)
 - **Remote Desktop**
