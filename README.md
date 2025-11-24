@@ -92,8 +92,7 @@ This tutorial outlines the ticket creation, assignment, escalation, and resoluti
 
 ## 🧾 Summary
 
-This lab simulated a full IT support workflow — from ticket creation and SLA assignment to escalation and resolution.  
-By repeating the process, help desk technicians build the intuition to manage tickets efficiently and maintain clear communication with users.
+This lab simulated a full IT support workflow — from ticket creation and SLA assignment to escalation and resolution. By repeating the process, help desk technicians build the intuition to manage tickets efficiently and maintain clear communication with users.
 
 ---
 
