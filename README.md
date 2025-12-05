@@ -89,17 +89,3 @@ This tutorial outlines the ticket creation, assignment, escalation, and resoluti
 </p>
 
 ---
-
-## 🧾 Summary
-
-This lab simulated a full IT support workflow — from ticket creation and SLA assignment to escalation and resolution. By repeating the process, help desk technicians build the intuition to manage tickets efficiently and maintain clear communication with users.
-
----
-
-### 🧩 Skills Demonstrated
-- Ticket Lifecycle Management  
-- SLA Prioritization & Escalation  
-- ITIL-Inspired Incident Management  
-- RBAC (Role-Based Access Control)  
-- Service Desk Communication  
-- Problem Diagnosis and Resolution Workflow  
