@@ -1,91 +1,43 @@
-# osTicket - Ticket Lifecycle Management
+# osTicket Help Desk Lab — Ticket Lifecycle
 
-This tutorial outlines the ticket creation, assignment, escalation, and resolution process within osTicket — simulating real-world IT service desk operations. The objective was to manage incidents from submission to resolution, applying SLA priorities and department routing.
+> **Portfolio lab:** Personal training environment; not a production system.
 
----
+## Overview
 
-### 🖥️ Environments and Technologies Used
-- **Microsoft Azure** (Virtual Machines / Compute)
-- **Remote Desktop**
-- **Internet Information Services (IIS)**
-- **osTicket v1.15.8**
+The third stage of the osTicket lab: simulated user requests are received, classified, assigned, escalated, worked, and closed. Scenarios include a banking outage, a software upgrade problem, and a laptop that will not power on.
 
----
+## Tools and technologies
 
-### 💻 Operating Systems Used
-- **Windows 10 (21H2)**
+osTicket 1.15.8, Windows 10, Microsoft Azure, IIS, RDP
 
----
+## What I did
 
-## 🎯 Ticket Lifecycle Objectives
-1. Create and manage tickets as end users
-2. Observe and edit ticket properties as help desk agents
-3. Assign departments, priorities, and SLAs
-4. Escalate and resolve tickets according to policies
-5. Demonstrate understanding of help desk communication workflow
+1. Submit example requests through the end-user portal.
+2. Review ticket properties, department assignment, severity, and SLA.
+3. Work or escalate tickets under different agent accounts.
+4. Document completion and close simulated tickets.
 
----
+## Selected evidence
 
-## ⚙️ Configuration & Lifecycle Steps
+### End-user ticket intake
 
-### Step 1: Admin and User Access
-- **Admin Login:** [http://localhost/osTicket/scp/login.php](http://localhost/osTicket/scp/login.php)
-- **End User Portal:** [http://localhost/osTicket](http://localhost/osTicket)
+![End-user ticket intake — 1](./enduser.png)
+![End-user ticket intake — 2](./ticket-3.png)
 
-<p align="center">
-  <img src="./enduser.png" alt="osTickete Login Pages" width="80%"/>
-  <img src="./admin.png" alt="osTicket Login Pages" width="80%"/>
-</p>
+### Ticket handling
 
----
+![Ticket handling — 1](./ticket-4.png)
+![Ticket handling — 2](./ticket-5.png)
 
-### Step 2: Create and Manage Tickets
+## What I learned
 
-#### 🧾 Ticket 1 — “Entire mobile/online banking system is down”
-**Created By:** End User (Karen)  
-**Agent:** John  
+The scenarios illustrated the importance of prioritization, clear ownership, and documentation during incident handling. These were simulated tickets, not customer incidents.
 
-**Actions Taken:**
-- Viewed ticket properties: Priority, Department, SLA, Assigned To  
-- Set SLA: **Sev-A (1 hour, 24/7)**  
-- Assigned Department: **Online Banking**  
-- Verified visibility and access limitations when re-logging as John  
-- Resolved ticket under **Jane (SysAdmins)** account
+## Related work
 
-<p align="center">
-  <img src="./ticket-3.png" alt="Ticket 1 Banking Outage" width="80%"/>
-</p>
+[Installation](https://github.com/lukasparmelee/osTicket-prereqs) · [Post-install configuration](https://github.com/lukasparmelee/post-install-config) · [Ticket lifecycle](https://github.com/lukasparmelee/Ticket-lifecycle)
 
----
+## Security and scope
 
-#### 🧾 Ticket 2 — “Accounting department needs Adobe upgrade, broken”
-**Created By:** End User (Ken)  
-**Agent:** John  
+Screenshots and instructions describe a controlled learning lab. Do not reuse demonstration credentials, expose live secrets, or reproduce permissive firewall settings in production. Verify screenshots and repository history contain no active credentials before publishing.
 
-**Actions Taken:**
-- Observed ticket properties  
-- Set SLA: **Sev-C (8 hours, Business Hours)**  
-- Assigned Department: **Support**  
-- Worked ticket to completion as John  
-
-<p align="center">
-  <img src="./ticket-4.png" alt="Ticket 2 Adobe Upgrade" width="80%"/>
-</p>
-
----
-
-#### 🧾 Ticket 3 — “CFO’s laptop will no longer turn on”
-**Created By:** End User (Karen)  
-**Agent:** John  
-
-**Actions Taken:**
-- Observed and updated ticket properties  
-- Set SLA: **Sev-B (4 hours, 24/7)**  
-- Assigned Department: **Support**  
-- Completed troubleshooting and closed ticket as John  
-
-<p align="center">
-  <img src="./ticket-5.png" alt="Ticket 3 CFO Laptop" width="80%"/>
-</p>
-
----
